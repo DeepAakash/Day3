@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Syne+Tactile&display=swap');
+
+body{
+	
+
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block1{
+	padding: 100px;
+	background-color: red;
+
+}
+
+.block2{
+	padding: 100px;
+	background-color: blue;
+}
+
+.block3{
+	padding: 100px;
+	background-color: black;
+}

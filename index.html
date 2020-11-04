@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<img class="logo" src="logo.jpg" width="150px" alt="IETE Logo">
+	<div class="main-block">
+		<form>
+			<div class="title">
+				<i class="fas fa-pencil-alt"></i>
+				<h2> Register here</h2>
+			</div>
+			<div class="info">
+				<input type="text" name="name" placeholder="Full Name" required pattern="[A-z ]{1,100}">
+				<input type="text" name="name" placeholder="Email id" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+				<input type="tel" name="phone" placeholder="Your NO." required pattern="[0-9]{10}">
+				<select name="drop">
+					<option value="Year" selected>Year</option>
+					<option value="1st">First</option>
+					<option value="Second">Second</option>
+				</select>
+				<select name="down">
+					<option value="Branch" selected>Branch</option>
+					<option value="COE">COE</option>
+					<option value="CSE">CSE</option>
+					<option value="ENC">ENC</option>
+					<option value="ECE">ECE</option>
+					<option value="EIC">EIC</option>
+					<option value="MEC">MEC</option>
+					<option value="Others">Others</option>
+				</select>
+			</div>
+			<button type="submit">Submit</button>
+
+		</form>
+	</div>
+
+</body>
+</html>
